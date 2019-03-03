@@ -26,7 +26,7 @@ clicking = True
 def keyboard_event(scan_code):
 	global running
 	running = False
-	keyboard.clear_all_hotkeys();
+	keyboard.clear_all_hotkeys()
 
 def reset_timer(scan_code):
 	global prev
